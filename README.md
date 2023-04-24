@@ -12,3 +12,14 @@ AI painting is considered one of the future directions in the field of artistic 
 
 <img width="272" alt="image" src="https://user-images.githubusercontent.com/113523690/233887109-7557b306-f100-45ec-9444-0760b4354412.png">
 The PatchGAN discriminator consists of a sequence of convolution layers, which can be built using the downsampling blocks defined earlier. To optimize these parameters, we need to define the loss functions, including the adversarial loss, identity loss, and cycle loss.!
+
+
+Step 1: Gathering Training Images
+
+Step 2: Pre-Processing Training Images (Using DLIB package to resize the portrait)
+
+Step 3: Training the dataset by using CycleGAN model
+
+Step 4: Using VQGAN to Refine the Details
+
+Step 5: Using GPT-3.5 Turbo as a serach engine to find Image
